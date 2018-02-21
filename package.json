@@ -1,0 +1,19 @@
+{
+  "name": "jsmethods",
+  "version": "1.0.0",
+  "description": "A repo of cool JS methods that I wrote.",
+  "main": "charCounter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Philocoder93/JSMethods.git"
+  },
+  "author": "Isaac Duarte",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Philocoder93/JSMethods/issues"
+  },
+  "homepage": "https://github.com/Philocoder93/JSMethods#readme"
+}
