@@ -3,9 +3,9 @@
 // were used in that string, it will be used to buff up various other
 // string manipulation methods
 
-function charCounter(string) {
+module.exports = function charCounter(string) {
   return string.split('').reduce((acum, crnt) => {
-    acum[crnt] = acum[crnt] ? acum[crnt] + 1 : +!!acum[crnt] + 1;
+    acum[crnt] ? acum[crnt]++ : acum[crnt] = 1;
     return acum;
   }, {});
 };

@@ -3,7 +3,7 @@
 // for instance, aaabbcc would return true because if you remove a then it has an equal
 // number of A's B's and C's.
 
-function equalFrequency(s){
+module.exports = function equalFrequency(s){
   s = s.split('');
   let subsets = [];
   
